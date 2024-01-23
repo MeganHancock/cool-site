@@ -1,6 +1,7 @@
 /* NOTE element selectors */
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -84,4 +85,26 @@ button:hover {
     color: #fafd61;
     background-color: #061130;
     border-radius: .2em;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 80%;
+
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .main-map {
+        padding: 0;
+    }
+
+    .main-p {
+        padding: 0;
+    }
 }
