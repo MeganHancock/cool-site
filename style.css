@@ -1,0 +1,52 @@
+/* NOTE element selectors */
+body {
+    margin: 0;
+}
+
+
+
+/* NOTE class selectors */
+.flex-container {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.header-buttons {
+    background-color: #061130;
+    color: white;
+    border: none;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.bright-blue-bg {
+    background-color: #1c4bc4;
+    border: none;
+}
+
+
+.dark-blue-bg {
+    background-color: #061130;
+    color: white;
+}
+
+
+.lower-footer {
+    background-color: #f4f6f8;
+    align-items: center;
+}
+
+
+/* NOTE fancy selectors */
+
+
+.upper-footer>button {
+    color: #1c4bc4;
+    border: none;
+    background-color: white;
+}
